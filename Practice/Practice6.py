@@ -6,6 +6,14 @@ if x>y and x>z:
 elif y>z and y>x:
     print("y is the oldest one")
 elif z>x and z>y:
-    print("z is the greatest")
+    print("z is the oldest one")
+if x<y and x<z:
+    print("x is the youngest one")
+elif y<x and y<z:
+    print("y is the youngest")
+elif z<x and z<y:
+    print("z is the youngest")
+else :
+    print("all are of same age")
 
     
